@@ -52,7 +52,7 @@ function AppExchange(props) {
         }
     }
     const updateRes = () => { 
-        let res1 = amount * (convertTo.value / convertFrom.value)
+        let res1 = amount * (convertFrom.value / convertTo.value)
         setRes(res1)
     }
 
