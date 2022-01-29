@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.strip{
+  background: rgb(2, 0, 36);
+  background: linear-gradient(27deg, rgba(2, 0, 36, 1) 0%, rgba(228, 229, 237, 1) 0%, rgba(27, 22, 191, 1) 0%, rgba(78, 133, 231, 1) 51%);
+  min-height: 250px;
+  color:white
+}
+.box{
+  /* margin-top: -150px; */
+  min-height: 300px;
+  background: white;
+  border-radius: 3%;
+}
+main {
+  background: white;
+  /* max-height: 300px;
+  min-height: 200px; */
+  /* max-height: 100%; */
+  /* position: fixed; */
+}
+
+main .container {
+  /* max-width: 700px; */
+  position: absolute;
+  margin-top: -80px;
+  left: 0; 
+  right: 0;
+  min-height: 100px;
+  
+  /* width: 100px; */
+}
+footer{
+  background:lightgray;
+  /* min-height: 30px; */
+  text-align: center;
+  
+  align-items: center;
+  /* width: 100%; */
+
+}
+
